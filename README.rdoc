@@ -91,6 +91,8 @@ more on the options here.
 If you do the search inside of an EventMachine reactor, as the
 UPnP::SSDP::Searcher receives and parses responses, it adds them to the accessor
 #discovery_responses, which is an EventMachine::Channel.  This lets you subscribe
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhypexr%2Fupnp.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhypexr%2Fupnp?ref=badge_shield)
+
 to the resposnes and do what you want with them (most likely you'll want to create
 UPnP::ControlPoint::Device objects so you can control your device) as you
 receive them.
@@ -187,3 +189,7 @@ this as the design settles down.
 Copyright (c) 2012 sloveless
 
 See LICENSE.rdoc for details.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhypexr%2Fupnp.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhypexr%2Fupnp?ref=badge_large)
